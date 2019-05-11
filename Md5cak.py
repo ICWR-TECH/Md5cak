@@ -24,7 +24,7 @@ for u in range(mulai,sampai+1) :
    for kata in itertools.product(str_kata,repeat=u):
 
       if hashlib.md5(''.join(kata)).hexdigest() == strmd5 :
-         print "[+] Success : " + ''.join(kata)
+         sys.stdout.write("[+] Success : " + ''.join(kata))
          exit()
       else :
-         print "[-] Failed : " + ''.join(kata)
+         sys.stdout.write("[-] Failed : " + ''.join(kata))
