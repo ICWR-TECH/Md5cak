@@ -1,6 +1,6 @@
 # Md5cak
 Md5 cracker Tools
 # Use 
-$ python2 md5cak.py start end str
+$ python2 md5cak.py md5 start end str
 # example
-$ python2 md5cak.py 1 6 "0123456789 abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+$ python2 md5cak.py 595aa739fc58403c7c62cc2840d0b7fb 1 6 "0123456789 abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
