@@ -25,6 +25,7 @@ for u in range(mulai,sampai+1) :
 
       if hashlib.md5(''.join(kata)).hexdigest() == strmd5 :
          sys.stdout.write("\r[+] Success : " + ''.join(kata))
+         print "\n"
          exit()
       else :
          sys.stdout.write("\r[-] Failed : " + ''.join(kata))
